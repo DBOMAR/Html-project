@@ -1,0 +1,101 @@
+.page {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    color: green;
+    font-family: Courier;
+}
+
+.contener {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 100px;
+    margin: 10px;
+
+}
+
+h2 {
+    color: green;
+    font-family: Courier;
+}
+
+h3 {
+    color: red;
+    font-size: 20px;
+    font-family: Courier;
+}
+
+p {
+    color: green;
+    font-family: Courier;
+    font-size: 13px;
+}
+
+p1 {
+    color: green;
+    font-family: Courier;
+    font-size: 12px;
+}
+
+h4 {
+    color: rgb(20, 189, 20);
+    font-family: Courier;
+
+}
+
+.bottum {
+    border-top: 5px solid rgb(58, 65, 58);
+    margin-top: 10px;
+}
+
+.bottum img {
+    display: block;
+    height: 100px;
+    width: 150px;
+    border-radius: 70%;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+
+}
+
+
+h5 {
+    color: rgb(34, 161, 34);
+    text-align: right;
+    font-size: 30px;
+    float: right;
+    display: inline-block;
+
+}
+
+h6 {
+    color: rgb(34, 161, 34);
+    text-align: left;
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+
+}
+
+.otherpost{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25%;
+    font-size: 15px;
+    color: green;
+}
+
+.Absulout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: green;
+}
