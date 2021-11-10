@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.squares{
+flex-basis: calc(100/3);
+height: 250px;
+display: flex;
+
+justify-content: center;
+align-items: center;
+}
+
+.square1{
+    background-color: yellow;
+}
+
+.square2{
+    background-color: red;
+}
+
+.square3{
+    background-color: blue;
+}
+
+.square4{
+    background-color: green;
+}
+
+.square5{
+    background-color: rgb(197, 197, 197);
+}
+
+.square6{
+    background-color: purple;
+}
+
+.square7{
+    background-color: rgb(78, 77, 77);
+}
+
+.square8{
+    background-color: rosybrown;
+}
+
+.square9{
+    background-color: orange;
+}
