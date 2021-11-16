@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+}
+
+.img {
+    position: absolute;
+    left: 25%;
+    width: 25%;
+    height: 400px;
+    background-position: cover;
+
+}
+
+.img2 {
+    position: absolute;
+    left: 50%;
+    width: 25%;
+    height: 400px;
+    background-position: cover;
+
+}
+
+.img3 {
+    position: absolute;
+    left: 75%;
+    width: 25%;
+    height: 400px;
+    background-position: cover;
+
+}
+
+.img4 {
+    position: absolute;
+    right: 25%%;
+    width: 25%;
+    height: 400px;
+    background-position: cover;
+
+}
