@@ -1,0 +1,71 @@
+
+.flex-container {
+
+    border: 3px solid black;
+    height: 500px;
+
+    width: 1000px;
+
+    /* FLEXBOX */
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-content: center;
+
+}
+
+.flex-item {
+
+    border: 2px solid green;
+    width: 190px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+   
+
+}
+
+.a {
+    background-color: yellow;
+}
+
+.b {
+    background-color: red;
+}
+
+.c {
+    background-color: blue;
+}
+
+.d {
+    background-color: purple;
+}
+
+.e {
+    background-color: yellow;
+}
+
+.f {
+    background-color: red;
+}
+
+.g {
+    background-color: blue;
+}
+
+.h {
+    background-color: purple;
+}
+
+.i{
+    background-color: yellow;
+}
+
+.j {
+    background-color: red;
+}

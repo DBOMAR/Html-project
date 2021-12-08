@@ -1,0 +1,60 @@
+
+.flex-container {
+
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: none space-between;
+
+}
+
+.flex-item {
+    font-size: 50px;
+    border: 2px solid green;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+
+
+
+}
+
+.--1 {
+    position: absolute;
+    background-color: yellow;
+    flex-basis: 20px;
+    height: 60px;
+    margin-top: 238px;
+    left: 282px;
+}
+
+.--2 {
+    position: absolute;
+    background-color: red;
+    width: 296px;
+    height: 100px;
+    margin-top: 135px;
+    
+}
+
+.--3 {
+    position: absolute;
+    background-color: blue;
+    flex-basis: 20px;
+    height: 100px;
+    margin-top: 38px;
+    left: 10px; 
+}
+
+.--4 {
+    position: absolute;
+    background-color: purple;
+    flex-basis: 20px;
+    height: 45px;
+    margin-top: 0px;
+    left: 150px; 
+}
