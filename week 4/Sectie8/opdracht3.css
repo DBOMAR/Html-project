@@ -1,0 +1,39 @@
+.container {
+    grid-template-columns: auto auto;
+    width: 400px;
+    height: 500px;
+    display: grid;
+
+}
+
+.squares {
+    text-align: center;
+    padding: 50px;
+}
+
+.square1 {
+    background-color: yellow;
+}
+
+.square2 {
+    background-color: rgb(201, 167, 167);
+}
+
+.square3 {
+    background-color: red;
+}
+
+.square4 {
+    background-color: blue;
+}
+
+.square5 {
+    background-color: purple;
+}
+
+.square6 {
+    background-color: green;
+}
+.square7 {
+    background-color: rebeccapurple;
+}

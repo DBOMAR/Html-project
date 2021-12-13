@@ -1,0 +1,34 @@
+
+
+.squares{
+flex-basis: calc(100/3);
+height: 250px;
+display: flex;
+
+justify-content: center;
+align-items: center;
+}
+
+.square1{
+    background-color: yellow;
+}
+
+.square2{
+    background-color: rgb(201, 167, 167);
+}
+
+.square3{
+    background-color: red;
+}
+
+.square4{
+    background-color:blue;
+}
+
+.square5{
+    background-color: purple;
+}
+
+.square6{
+    background-color: green;
+}
