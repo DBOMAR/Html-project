@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Grid</title>
+<meta name="description" content="Flexbox">
+<style>
+* {
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+html {
+font-size: 62.5%;
+}
+body {
+min-height: 100vh;
+font-size: 3rem;
+display: grid;
+place-content: center;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(4, 100px);
+grid-auto-rows: 100px;
+grid-auto-flow: row dense;
+}
+.grid-container__item {
+}
+.small {
+grid-column: span 1;
+grid-row: span 1;
+background: darkblue;
+}
+.medium {
+grid-column: span 2;
+grid-row: span 2;
+background: pink;
+}
+.big {
+grid-column: span 3;
+grid-row: span 3;
+background: yellow;
+}
+.normal {
+grid-column: span 2;
+grid-row: span 1;
+background: green;
+}
+@media all and (max-width: 1000px){
+.grid-container {
+grid-template-columns: repeat(8, 100px);
+}
+}
+@media all and (max-width: 500px){
+.grid-container {
+grid-template-columns: repeat(4, 100px);
+}
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+<div class="grid-container__item grid-container__item--a big">0</div>
+<div class="grid-container__item grid-container__item--b medium">1</div>
+<div class="grid-container__item grid-container__item--c big">2</div>
+<div class="grid-container__item grid-container__item--d normal">3</div>
+<div class="grid-container__item grid-container__item--e small">4</div>
+<div class="grid-container__item grid-container__item--f medium">5</div>
+<div class="grid-container__item grid-container__item--g medium">6</div>
+<div class="grid-container__item grid-container__item--h big">7</div>
+<div class="grid-container__item grid-container__item--a big">0</div>
+<div class="grid-container__item grid-container__item--b medium">1</div>
+<div class="grid-container__item grid-container__item--c big">2</div>
+<div class="grid-container__item grid-container__item--d normal">3</div>
+<div class="grid-container__item grid-container__item--e small">4</div>
+<div class="grid-container__item grid-container__item--f normal">5</div>
+<div class="grid-container__item grid-container__item--g medium">6</div>
+<div class="grid-container__item grid-container__item--h big">7</div>
+<div class="grid-container__item grid-container__item--e small">4</div>
+<div class="grid-container__item grid-container__item--f medium">5</div>
+<div class="grid-container__item grid-container__item--g medium">6</div>
+</div>
+</body>
+</html>
+

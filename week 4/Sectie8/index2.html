@@ -1,0 +1,95 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Grid</title>
+<meta name="description" content="Flexbox">
+<style>
+* {
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+html {
+font-size: 62.5%;
+}
+body {
+min-height: 100vh;
+font-size: 3rem;
+display: grid;
+place-content: center;
+}
+.grid-container {
+display: grid;
+grid-template-columns: 200px 100px 300px;
+grid-template-rows: 40px repeat(3, 20px) 40px repeat(2, 60px);
+row-gap: 10px;
+column-gap: 20px;
+justify-items: center;
+align-items: center;
+}
+.grid-container__item {
+    display: grid;
+    place-content: center;
+}
+
+.grid-container__item--a {
+grid-column: 1 / 2;
+grid-row: 1 / 3;
+background: pink;
+}
+.grid-container__item--b {
+background: red;
+grid-column: 2 / 3;
+grid-row: 2 / 5;
+}
+.grid-container__item--e {
+grid-column: 3 / 4;
+grid-row: 4 / 6;
+background: green;
+}
+.grid-container__item--c {
+grid-column: 1 / 2;
+grid-row: 6 / 7;
+background: lightblue;
+}
+.grid-container__item--d {
+grid-column: 2 / 3;
+grid-row: 6 / 7;
+background: yellow;
+}
+.grid-container__item--f {
+grid-column: 3 / 4;
+grid-row: 6 / 7;
+background: rgb(83, 37, 45);
+}
+
+.grid-container__item--g{
+grid-column: 3 / 4;
+grid-row: 1 / 3;
+background: blue;
+}
+.grid-container__item--h {
+grid-column: 2 / 4;
+grid-row: 7 / 8;
+background: pink;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+<div class="grid-container__item grid-container__item--a">0</div>
+<div class="grid-container__item grid-container__item--b">1</div>
+<div class="grid-container__item grid-container__item--c">2</div>
+<div class="grid-container__item grid-container__item--d">3</div>
+<div class="grid-container__item grid-container__item--e">4</div>
+<div class="grid-container__item grid-container__item--f">5</div>
+<div class="grid-container__item grid-container__item--g">6</div>
+<div class="grid-container__item grid-container__item--h">7</div>
+
+</div>
+</body>
+</html>
+
